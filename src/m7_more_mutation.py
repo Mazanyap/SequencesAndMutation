@@ -307,8 +307,10 @@ def MUTATE_circle(circle, color, n):
                   argument is a color appropriate for Zellegraphics.
     """
 
-    
-    # TODO: 3. First, READ THE ABOVE TEST CODE.
+    circle.fill_color = color
+    circle.center.x += n
+
+    # Done: 3. First, READ THE ABOVE TEST CODE.
     #          Make sure that you understand it.
     #          Then, IMPLEMENT and test THIS FUNCTION
     #          (using the above code for testing).
